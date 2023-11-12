@@ -1,5 +1,5 @@
-import view
 from flask import Flask
+from delivery import view
 
 def create_app():
     #Factory: uma função que recebe um objeto cru e muda esse objeto, o devolvendo alterado, elas servem para ser executadas no futuro.
